@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="modal.css">
+   <link rel="stylesheet" href="2.css">
+</head>
+<body>
+ 
+ 
+   <div class="container">
+	<h1 class="text-center"> to do list</h1>
+	<form class='text-center' id="form">
+		<input type="text" id="input">
+		<p><button class="btn btn-success" id="button" type='button'>Add</button></p>
+		<p><button class="rem" id="remove" type='button'>Remove</button></p>
+	</form>
+	<ol id="todolist">
+	  
+	</ol>
+</div>
+ 
+ 
+ 
+  <main>
+ 
+  
+  <a id="modal-trigger" href="#modal" class="link-trigger">Registration</a>
+</main>
+
+<div id="modal">
+  
+  <div class="content">
+    <h2>Enter your mail and password</h2>
+    <p>Логин: <input type="text" id="login"></p>
+    <p>Пароль: <input type="password" id="password"></p>
+
+    <button id="close-modal">Welcome</button>
+  </div>
+</div>
+
+
+
+<script src="2.js"></script>
+<script src="modal.js"></script>
+<script src="localStorage.js"></script>	
+<script src="authService.js"></script>	
+</body>
+</html>
